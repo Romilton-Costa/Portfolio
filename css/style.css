@@ -10,7 +10,7 @@
 /*********************** HEADER *****************/
 
 header.stick{
-    background: #fff; 
+    background:hsl(240,10%,3.9%); 
     padding: 20px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
@@ -26,6 +26,7 @@ header{
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
+    border-bottom:0.01rem solid white;
 }
 
 header .logo{ /*MUDAR AS CORES DA LOGO*/
@@ -39,7 +40,7 @@ header .logo{ /*MUDAR AS CORES DA LOGO*/
 
 /*MUDAR A COR*/
 header.stick .logo{
-    color: #111;
+    color: #fff;
 }
 
 /*MUDAR AQUI*/
@@ -66,7 +67,7 @@ header ul li a{
 }
 
 header.stick ul li a{
-    color: #111;
+    color: #fff;
 }
 
 /*MUDAR AQUI*/
@@ -535,7 +536,7 @@ img{
     /*Mudar de cor*/
     header ul li a 
     {
-        color: #111;
+        color: white;
         font-size: 24px;
         margin: 10px;
     }
