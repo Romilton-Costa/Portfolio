@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-/*********************** HEADER *****************/
+
 
 header.stick{
     background:hsl(240,10%,3.9%); 
@@ -29,7 +29,7 @@ header{
     border-bottom:0.01rem solid white;
 }
 
-header .logo{ /*MUDAR AS CORES DA LOGO*/
+header .logo{
     color: #fff; 
     font-size: 24px;
     text-transform: uppercase;
@@ -75,7 +75,7 @@ header ul li a:hover{
     color: #00BFFF;
 }
 
-/*************************SECTION ********************/
+
 
 section{
     padding: 100px;
@@ -86,7 +86,7 @@ section{
     position: relative;
     min-height: 100vh;
     background: url(../image/background.jpg);
-    background-color: black; /*Mudar essa imagem aqui*/
+    background-color: black; 
     background-size: cover;
     background-position: right;
     display: flex;
@@ -118,7 +118,7 @@ section{
 .btn{
     animation: slide-bottom 2s ease-in-out infinite alternate 0.5s both;
     position: relative;
-    background: #1E90FF; /*Mudar o Background e a cor */
+    background: #1E90FF;
     display: inline-block;
     color: #fff;
     margin-top: 20px;
@@ -147,7 +147,7 @@ section{
  opacity: 1;
  animation: pisca .7s infinite;
 }
-/* Animação aplicada ao content referente a classe *.tlog* resultando efeito de cursor piscando. */
+
 
 @keyframes pisca{
     0%, 100%{
@@ -194,15 +194,7 @@ section{
     margin-bottom: 10px;
 }
 
-/*
-.w50{
-    min-width: 50%;
-} */
 
-/*
-img{
-    max-width: 100%;
-}*/
 
 .w50 .img-th{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -210,7 +202,7 @@ img{
     margin: 20px;
 }
 
-/********************* TECNOLOGIAS *****************/
+
 .tecnologias{
     background: #f7f5fa; /* MUDAR A COR*/
 }
@@ -228,9 +220,9 @@ img{
 
 .tecnologias .content .tecnologiasBx{
     padding: 40px 20px;
-    background: #ffff; /*F0FFFF B0C4DE #B0C4DE*/
-    color: black; /*#fff*/
-    max-width: 20%; /*300 340*/
+    background: #ffff; 
+    color: black; 
+    max-width: 20%; 
     margin: 20px;
     text-align: center;
     transform: 0.5s;
@@ -240,7 +232,7 @@ img{
 }
 
 .tecnologias .content .tecnologiasBx:hover{
-    background: #fff; /*MUDAR A COR 87CEEB 00BFFF*/
+    background: #fff; 
     top:-2px;
     box-shadow:0 4px 4px #00BFFF/*#666*/;
     -webkit-transform: scale(1.1);
@@ -260,7 +252,7 @@ img{
     font-weight: 600;
 }
 
-/************************* PROJETOS ******************/
+
 
 .projetos .content{
     display: flex;
@@ -270,9 +262,29 @@ img{
 }
 
 .projetos .content .projetosBx{
-    width: 30%; /*50%*/
-    padding: 15px 5px 15px 5px; /*20px*/
+    width: 50%; /*50%*/
+    padding: 15px 5px 15px 5px; 
     cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border-color: 0.1rem solid black;
+    
+}
+.buttons > a{
+    text-decoration: none;
+    color: #000;
+    border: 0.1rem solid #000;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 0.6rem;
+}
+
+.buttons > a:hover{
+    color: #fff;
+    background-color: #000;
 }
 
 .projetos .content .projetosBx img{
