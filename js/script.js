@@ -31,23 +31,21 @@ function inserir(letra){
 window.onload = digitar
 
 
-// Text que escreve a apaga aos poucos
+
 var div = document.getElementById('log');
-var textos = ['Analista de Sistemas Front end.','Programador JavaScript.' ,'UI Design.','Desenvolvedor Front end React JS.', 'Programador Web.', 'Trainee  React Native.', 'Trainee Node Js.', 'Web Design.'];
+var textos = ['Analista de Sistemas ','Front end','Programador JavaScript.' ,'UI Design.','Desenvolvedor Front end React JS.', 'Programador Web.', 'Trainee  React Native.', 'Trainee Node Js.', 'Web Design.'];
 
 function escrever(str, done) {
   var char = str.split('').reverse();
   var typer = setInterval(function() {
       if (!char.length) {
           clearInterval(typer);
-          return setTimeout(done, 500); // Só para esperar um pouco
+          return setTimeout(done, 500);
       }
       var next = char.pop();
       div.innerHTML += next;
   }, 100);
 }
-/*top: 65%; /*65%*/
-  /*left: 35%; 35%*/
 
 function limpar(done) {
   var char = div.innerHTML;
@@ -76,25 +74,6 @@ function rodape(conteudos, el) {
 rodape(textos);
 
 
-// Resultando efeito de cursor piscando.
-/*
-function typeWrite(elemento){
-  const textoArray = elemento.innerHTML.split(' ');
-  elemento.innerHTML = ' ';
-  textoArray.forEach(function(letra, i){   
-    
-  setTimeout(function(){
-      elemento.innerHTML += letra;
-  }, 75 * i)
-});
-}
-const titulo = document.querySelector('.titulo-principal')
-typeWrite(titulo); 
-*/
-
-
-/*Animação com Scroll: Elementos vão surgindo*/
-
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 
@@ -106,7 +85,7 @@ function animeScroll(){
       }else{
           element.classList.remove(animationClass)
       }
-      //console.log(element.offsetTop);
+    
   })
 }
 
@@ -115,7 +94,6 @@ window.addEventListener('scroll', function(){
 })
 
 
-//Quando rolar para baixo 20px do topo do documento, mostre o botão
 var backToTop = document.getElementById("back-to-top");
 
 window.onscroll = function() {scrollFunction()};
