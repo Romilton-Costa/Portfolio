@@ -86,11 +86,7 @@ section{
     position: relative;
     min-height: 100vh;
     background: url(../image/background.jpg);
-<<<<<<< HEAD
     background-color: black; 
-=======
-    background-color: black; /*Mudar essa imagem aqui*/
->>>>>>> 71ee96ee7ca19e3cd87e1325d0c0c8c59ee2ac6a
     background-size: cover;
     background-position: right;
     display: flex;
