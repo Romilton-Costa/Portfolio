@@ -80,7 +80,17 @@ header ul li a:hover{
 section{
     padding: 100px;
 }
-
+.declarativa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.declarativa h2{
+    display: flex;
+   font-size: 20px;
+   font-weight: 500;
+}
 .banner
 {
     position: relative;
@@ -263,11 +273,16 @@ section{
 
 .projetos .content .projetosBx{
     width: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 15px 5px 15px 5px; 
     cursor: pointer;
 }
 .buttons{
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 2rem;
     border-color: 0.1rem solid black;
@@ -623,6 +638,7 @@ section{
     .overlay .sci li a{
         margin-left: 280%;
     }
+    
 }
 
 
@@ -661,6 +677,7 @@ section{
     .banner{
         padding: 160px 20px 100px;
     }
+    
     .projetosBx:hover .overlay{
         padding: 100px 160px;/*210px*/
     }
@@ -678,6 +695,7 @@ section{
     .img.img.img-th.animate{
         margin-left: -40px;
     }
+   
     .projetosBx:hover .overlay{
         padding: 100px 135px;/*210px*/
     }
