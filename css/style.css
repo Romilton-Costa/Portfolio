@@ -529,6 +529,7 @@ section{
     .menu.active
     {
         left: 0;
+        background-color: black;
     }
     /*Mudar de cor*/
     header ul li a 
@@ -542,6 +543,7 @@ section{
         
         width: 40px;
         height: 40px;
+        color: white;
         background: url(../image/menu.png);
         background-position: center;
         background-repeat: no-repeat;
@@ -550,11 +552,15 @@ section{
     }
     .toggle.active
     {
+        color: white;
         background: url(../image/close.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
         cursor: pointer;
+    }
+    .toogle.disabled{
+        color: white;
     }
     header.stick .toggle
     {
