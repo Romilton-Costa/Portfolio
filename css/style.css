@@ -277,16 +277,24 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px 5px 15px 5px; 
+    padding: 5px 5px 5px 5px; 
     cursor: pointer;
 }
 .buttons{
     display: flex;
+    flex-direction: column;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
     padding: 2rem;
     border-color: 0.1rem solid black;
     
+}
+.buttons> h5>p{
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 .buttons > a{
     text-decoration: none;
