@@ -7,7 +7,10 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-
+title{
+    display: flex;
+    text-align: center;
+}
 
 header.stick{
     background:hsl(240,10%,3.9%); 
