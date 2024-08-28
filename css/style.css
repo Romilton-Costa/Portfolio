@@ -121,7 +121,19 @@ section{
     color: #fff;
     font-weight: 500;
 }
-
+.image{
+   display: flex;
+   width: 30rem;
+   height: 20rem;
+    object-fit: cover;
+}
+.subheader{
+    font-weight: 600;
+}
+.content-description{
+    display: flex;
+    text-align: justify;
+}
 @keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(15px)}}
 
 .btn{
@@ -320,8 +332,8 @@ section{
 
 .glow-on-hover {
     display:flex;
-    width: 220px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     border: none;
     align-items: center;
     justify-content: center;
@@ -390,7 +402,7 @@ section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .projetos .content .projetosBx{
