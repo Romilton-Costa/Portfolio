@@ -1,6 +1,3 @@
-
-
-//Scroll > Quando rolar muda de cor
 window.addEventListener('scroll', function(){
   var header = document.querySelector('header');
   header.classList.toggle('stick', window.scrollY > 0);
@@ -13,8 +10,7 @@ function toggleMenu(){
   menu.classList.toggle('active');
 }
 
-//Text que somente escreve 
-var texto = "I'm Front End Developer Jr."
+var texto = "I'm Backend Developer Jr."
 var result
 
 var count = 0
@@ -33,7 +29,7 @@ window.onload = digitar
 
 
 var div = document.getElementById('log');
-var textos = ['Analista de Sistemas ','Front end','Programador JavaScript.' ,'UI Design.','Desenvolvedor Front end React JS.', 'Programador Web.', 'Trainee  React Native.', 'Trainee Node Js.', 'Web Design.'];
+var textos = ['Analista de Sistemas ','Front end','Programador Angular.' ,'UI Design.','Desenvolvedor junior.', 'Web Design.'];
 
 function escrever(str, done) {
   var char = str.split('').reverse();
