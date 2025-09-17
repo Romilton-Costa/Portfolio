@@ -10,7 +10,7 @@ function toggleMenu(){
   menu.classList.toggle('active');
 }
 
-var texto = "I'm Backend Developer Jr."
+var texto = "I'm Full stack developer jr."
 var result
 
 var count = 0
